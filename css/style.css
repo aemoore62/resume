@@ -402,7 +402,28 @@ footer p {
 
 }
 
-figure{
-    display: inline-block;
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.photos{
+   display:flex;
+   justify-content:center;
+   flex-direction: column;
+   flex-grow: 1;
+}
+
+.image{
+    display:block;
+    width:30%;
+}
+
+.word{
+    display:block;
+    width: 100%;
+    text-align:center;
+
 }
 
