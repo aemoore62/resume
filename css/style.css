@@ -45,29 +45,29 @@
 
  a {
     cursor: pointer;
-    color: #add6da;
+    color: #6bacc6;
     text-decoration: none;
  }
 
  a:hover {
     text-decoration:none;
-    color: #add6da;
+    color: #6bacc6;
     opacity: 0.9;
  }
 
  hr {
-    border-top: 5px solid #add6da;
+    border-top: 5px solid #6bacc6;
     width: 80px;
     padding-bottom: 20px;
  }
 
 
  .colour-splash {
-    color: #add6da;
+    color: #6bacc6;
  }
 
  .section-primary span {
-    color: #add6da;
+    color: #6bacc6;
     font-weight: bolder;
     opacity: 1;
  }
@@ -124,7 +124,7 @@
 }
 
 .intro h5 {
-    color: #add6da;
+    color: #6bacc6;
     font-size: 2.3rem;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -211,11 +211,11 @@ section {
 }
 
 .section-primary {
-    border: #add6da;
+    border: #6bacc6;
 }
 
 .section-colour {
-    background-color: #add6da;
+    background-color: #6bacc6;
     color: #fff;
 }
 
