@@ -442,6 +442,10 @@ html, body {
     width: 25%;
 }
 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 25%;
+}
+
 .carousel-open:checked + .carousel-item {
     position: static;
     opacity: 100;
