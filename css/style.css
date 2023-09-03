@@ -440,6 +440,7 @@ html, body {
     position: relative;
     overflow: hidden;
     width: 40%;
+    margin: auto;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
