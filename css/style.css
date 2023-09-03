@@ -444,7 +444,9 @@ html, body {
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 40%;
+    margin: auto;
 }
+
 
 .carousel-open:checked + .carousel-item {
     position: static;
