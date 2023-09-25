@@ -422,8 +422,6 @@ column-gap: 5px;
 
 
 
-
-
 html, body {
     margin: 0px;
     padding: 0px;
@@ -432,22 +430,15 @@ html, body {
 
 .carousel {
     position: relative;
-    /*box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);*/
-    margin: 0 auto;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    margin-top: 26px;
 }
 
 .carousel-inner {
     position: relative;
     overflow: hidden;
-    width: 40%;
-    margin: auto;
+    width: 100%;
 }
-
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    width: 40%;
-    margin: auto;
-}
-
 
 .carousel-open:checked + .carousel-item {
     position: static;
