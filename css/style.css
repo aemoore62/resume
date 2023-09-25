@@ -444,7 +444,7 @@ html, body {
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    width: 100%;
+    width: 40%;
     margin: auto;
 }
 
@@ -464,7 +464,7 @@ html, body {
 .carousel-item img {
     display: block;
     height: auto;
-    /*max-width: 100%;*/
+    max-width: 100%;
 }
 
 .carousel-control {
