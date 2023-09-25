@@ -454,7 +454,7 @@ html, body {
 
 .carousel-item img {
     display: block;
-    height: auto;
+    height: 25%;
     max-width: 100%;
 }
 
