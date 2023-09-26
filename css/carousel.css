@@ -47,7 +47,7 @@ html, body {
     font-size: 40px;
     height: 40px;
     line-height: 35px;
-    position: absolute;
+    position: relative;
     top: 50%;
     -webkit-transform: translate(0, -50%);
     cursor: pointer;
@@ -58,12 +58,20 @@ html, body {
     z-index: 10;
 }
 
+.carousel-control-prev , .carousel-control-next {
+        position: absolute;
+        top: 50%;
+        transform: TranslateY(-50%);
+     }
+
 .carousel-control.prev {
-    left: 2%;
+    right: auto;
+        left: 20px;
 }
 
 .carousel-control.next {
-    right: 2%;
+    left: auto;
+        right: 20px;
 }
 
 .carousel-control:hover {
