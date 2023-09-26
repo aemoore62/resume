@@ -1,3 +1,7 @@
+html,body{height:250px;}
+.carousel,.item,.active{height:250px;}
+.carousel-inner{height:250px;}
+
 img {
     height: 250px;
 }
