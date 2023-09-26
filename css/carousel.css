@@ -101,7 +101,7 @@ carousel-control-next-icon, .carousel-control-prev-icon {
     list-style: none;
     margin: 0;
     padding: 0;
-    position: absolute;
+    position: relative;
     bottom: 2%;
     left: 0;
     right: 0;
@@ -112,6 +112,7 @@ carousel-control-next-icon, .carousel-control-prev-icon {
 .carousel-indicators li {
     display: inline-block;
     margin: 0 5px;
+    position: relative;
 }
 
 .carousel-bullet {
